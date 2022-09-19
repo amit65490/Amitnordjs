@@ -12,9 +12,9 @@ const stage = new Stage()
 
 const rateLimit = require('telegraf-ratelimit');
 
-var bot_token = ''; //YOUR BOT TOKEN HERE
+var bot_token = '5620663557:AAFuiwpYmiSWzTQWL2LHTCwaDGylhgewxWo'; //YOUR BOT TOKEN HERE
 
-var bot_name = ''; // Bot Name
+var bot_name = 'Demo Nord js'; // Bot Name
 
 const bot = new Telegraf(bot_token);
 
@@ -90,11 +90,11 @@ stage.register(comment)
 
 var regex = new RegExp('.*')
 
-const admin_id = ;
+const admin_id = '868578453';
 
 const admin_id2 = ;
 
-var mongo_url = ''; // Your Mongo URL Here
+var mongo_url = 'mongodb+srv://animesh:Amit654@cluster0.4qe52xd.mongodb.net/?retryWrites=true&w=majority'; // Your Mongo URL Here
 
 const buttonsLimit = {
 
