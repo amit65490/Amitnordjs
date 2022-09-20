@@ -14,7 +14,7 @@ const rateLimit = require('telegraf-ratelimit');
 
 var bot_token = '5620663557:AAFuiwpYmiSWzTQWL2LHTCwaDGylhgewxWo'; //YOUR BOT TOKEN HERE
 
-var bot_name = 'Demo Nord js'; // Bot Name
+var bot_name = 'DemoNordjs'; // Bot Name
 
 const bot = new Telegraf(bot_token);
 
