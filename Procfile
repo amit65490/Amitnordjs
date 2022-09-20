@@ -1,1 +1,1 @@
-worker: apibot.js
+worker: nord apibot.js
