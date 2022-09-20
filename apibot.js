@@ -6,7 +6,7 @@ const { enter, leave } = Stage
 const stage = new Stage()
 const rateLimit = require('telegraf-ratelimit');
 var bot_token = '5620663557:AAFuiwpYmiSWzTQWL2LHTCwaDGylhgewxWo'; //YOUR BOT TOKEN HERE
-var bot_name = 'HostUPCloud'; // Bot Name
+var bot_name = 'DemoNodejs'; // Bot Name
 const bot = new Telegraf(bot_token);
 let db;
 const wallet = new BaseScene('wallet')
