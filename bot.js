@@ -92,7 +92,7 @@ var regex = new RegExp('.*')
 
 const admin_id = '868578453';
 
-const admin_id2 = ;
+const admin_id2 = '783050748';
 
 var mongo_url = 'mongodb+srv://animesh:Amit6543@cluster0.4qe52xd.mongodb.net/?retryWrites=true&w=majority'; // Your Mongo URL Here
 
