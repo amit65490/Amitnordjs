@@ -45,7 +45,7 @@ const comment = new BaseScene('comment')
 stage.register(comment)
 var regex = new RegExp('.*')
 const admin_id = 868578453;
-const admin_id2 = 868578453;
+const admin_id2 = 5649619174;
 var mongo_url = 'mongodb+srv://royalayush:royalayush@cluster0.p77fj.mongodb.net/NodeJSBot?retryWrites=true&w=majority'; // Your Mongo URL Here
 const buttonsLimit = {
     window: 1000,
@@ -79,7 +79,7 @@ bot.hears(/^\/start (.+[1-9]$)/, async (ctx) => {
     try {
         let admin = await db.collection('admindb').find({ admin: "admin" }).toArray()
         if (admin.length == 0) {
-            db.collection('admindb').insertOne({ admin: "admin", ref: 1, cur: 'INR', paychannel: '@jsjdkkdkdhsjdk', bonus: 0.1, minimum: 1, botstat: 'Active', withstat: 'ON', subwallet: 'NOT SET', MKEY: 'NOT SET', MID: 'NOT SET', channels: [] })
+            db.collection('admindb').insertOne({ admin: "admin", ref: 1, cur: 'INR', paychannel: '@taskgroupdo', bonus: 0.1, minimum: 1, botstat: 'Active', withstat: 'ON', subwallet: 'NOT SET', MKEY: 'NOT SET', MID: 'NOT SET', channels: [] })
             ctx.replyWithMarkdown(
                 '*😅Restart Bot With /start*'
             )
